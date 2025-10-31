@@ -1058,9 +1058,10 @@ npm run dev
 - ✅ UI สวยงาม มี animations
 
 ## บันทึกรูปผลการทดลอง
-```bash
-# บันทึกรูปผลการทดลองที่นี่
-``` 
+
+<img width="1465" height="767" alt="ภาพถ่ายหน้าจอ 2568-10-31 เวลา 11 40 15" src="https://github.com/user-attachments/assets/fc089cb1-81ba-4e19-8739-06394f4dfb24" />
+
+
 
 ### ขั้นตอนที่ 8.4: Test Build
 
@@ -1172,9 +1173,8 @@ git push origin main
 
 
 ## บันทึกรูปผลการ Deploy
-```bash
-# บันทึกรูปผลการ Deploy ที่นี่
-```
+<img width="1450" height="748" alt="ภาพถ่ายหน้าจอ 2568-10-31 เวลา 12 40 13" src="https://github.com/user-attachments/assets/be295cbb-64a6-4025-90e5-aab01f88fde6" />
+
 
 ### ขั้นตอนที่ 10.3: หา URL ของ Website
 
@@ -1189,7 +1189,7 @@ git push origin main
 
 เปิดเบราว์เซอร์ไปที่:
 ```
-https://your-username.github.io/todo-frontend/
+[https://your-username.github.io/todo-frontend/](https://67030207-wattikorn.github.io/todo-frontend/)
 ```
 
 ทดสอบว่า:
@@ -1203,9 +1203,8 @@ https://your-username.github.io/todo-frontend/
 
 ---
 ## บันทึกรูปผลการรันหน้า Front-end
-```bash
-# บันทึกรูปผลการรันหน้า Front-end ที่นี่
-```
+<img width="1454" height="762" alt="ภาพถ่ายหน้าจอ 2568-10-31 เวลา 12 47 28" src="https://github.com/user-attachments/assets/37e86b32-18e7-4cbf-8132-c40e7a15ce13" />
+
 
 ## ส่วนที่ 11: Troubleshooting
 
@@ -1358,41 +1357,41 @@ todo-frontend/
 
 ### Pre-deployment Checklist
 
-- [ ] Node.js 18+ ติดตั้งแล้ว
-- [ ] Git ติดตั้งแล้ว
-- [ ] GitHub Account พร้อม
-- [ ] Backend API ทำงานปกติ
-- [ ] CORS ตั้งค่าถูกต้อง
+- [✓] Node.js 18+ ติดตั้งแล้ว
+- [✓] Git ติดตั้งแล้ว
+- [✓] GitHub Account พร้อม
+- [✕] Backend API ทำงานปกติ
+- [✓] CORS ตั้งค่าถูกต้อง
 
 ### Development Checklist
 
-- [ ] สร้างโปรเจกต์ Next.js
-- [ ] ติดตั้ง dependencies ครบ
-- [ ] สร้าง API layer (`src/lib/api.js`)
-- [ ] สร้าง components ทั้ง 3 ตัว
-- [ ] สร้าง main page
-- [ ] แก้ไข styling
-- [ ] ทดสอบ local ผ่าน
+- [✓] สร้างโปรเจกต์ Next.js
+- [✓] ติดตั้ง dependencies ครบ
+- [✓] สร้าง API layer (`src/lib/api.js`)
+- [✓] สร้าง components ทั้ง 3 ตัว
+- [✓] สร้าง main page
+- [✓] แก้ไข styling
+- [✓] ทดสอบ local ผ่าน
 
 ### Deployment Checklist
 
-- [ ] สร้าง GitHub repository
-- [ ] สร้าง workflow file
-- [ ] ตั้งค่า GitHub Pages
-- [ ] ตั้งค่า workflow permissions
-- [ ] อัพเดท API URL ใน workflow
-- [ ] Push code ไป GitHub
-- [ ] Workflow รันสำเร็จ
-- [ ] Website เข้าถึงได้
-- [ ] ทดสอบ features ครบ
+- [✓] สร้าง GitHub repository
+- [✓] สร้าง workflow file
+- [✓] ตั้งค่า GitHub Pages
+- [✓] ตั้งค่า workflow permissions
+- [✓] อัพเดท API URL ใน workflow
+- [✓] Push code ไป GitHub
+- [✓] Workflow รันสำเร็จ
+- [✓] Website เข้าถึงได้
+- [✕] ทดสอบ features ครบ
 
 ### Testing Checklist
 
-- [ ] เปิดหน้าเว็บได้
-- [ ] API Status เป็น "Connected"
-- [ ] เพิ่ม Todo ได้
-- [ ] ลบ Todo ได้
-- [ ] Statistics แสดงถูกต้อง
+- [✓] เปิดหน้าเว็บได้
+- [✕] API Status เป็น "Connected"
+- [✕] เพิ่ม Todo ได้
+- [✕] ลบ Todo ได้
+- [✕] Statistics แสดงถูกต้อง
 
 
 ---
@@ -1434,4 +1433,3 @@ todo-frontend/
 - Backend: `https://your-backend.onrender.com`
 
 ---
-
